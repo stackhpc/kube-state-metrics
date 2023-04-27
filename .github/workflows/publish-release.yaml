@@ -7,7 +7,7 @@ on:
 
 # Publish images to GitHub packages
 env:
-  REGISTRY: ghcr.io/stackhpc
+  REGISTRY: ghcr.io/stackhpc/kube-state-metrics
   TAG: ${{ github.ref_name }}
 
 jobs:
